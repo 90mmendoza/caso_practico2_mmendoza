@@ -1,7 +1,7 @@
 ---
 - hosts: workers
   become: yes
-  remote_user: root
+  remote_user: azureuser
   become_user: root
   tasks:
   - name: Download Long Term Jenkins release

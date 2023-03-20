@@ -1,0 +1,6 @@
+[workers]
+ip_interna=10.224.0.4
+ip_interna=10.224.0.5
+
+[servers]
+20.86.98.192 ip_interna=10.0.1.4
