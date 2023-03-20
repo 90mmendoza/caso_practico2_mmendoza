@@ -1,0 +1,11 @@
+---
+
+- include_tasks: podman.yml
+  tags:
+    - podman
+    - podman_install
+
+- include_tasks: config_httpd.yml
+  tags:
+    - httpd
+    - httpd_config

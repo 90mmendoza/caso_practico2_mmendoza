@@ -1,0 +1,4 @@
+[workers]
+worker01 k8s_host=
+[servers]
+worker01 ansible_host=13.94.141.191
