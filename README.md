@@ -3,9 +3,9 @@ Despliegue de infraestructura sobre nube
 
 Requisitos:
 
-Terraform 1.4.2
-AZ CLI 2.38
-Ansible 2.9.27
+- Terraform 1.4.2
+- AZ CLI 2.38
+- Ansible 2.9.27
 
 Los directorios se dividen entre los despliegues con Ansible y los despliegues con terraform
 
