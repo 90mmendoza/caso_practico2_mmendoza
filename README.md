@@ -11,9 +11,9 @@ Los directorios se dividen entre los despliegues con Ansible y los despliegues c
 
 Terraform:
 Situandonos en cada uno de los repositorios podemos desplegar la infraestructura propuesta mediante:
-  terraform init
-  terraform apply
+  - terraform init
+  - terraform apply
   
 Ansible:
 Podemos desplegar desde el directorio de ansible usando el siguiente comando y eligiendo el playbook a usar:
-  ansible-playbook -i hosts -l XXXXX.yaml --key-file ~/.ssh/id_rsa
+  - ansible-playbook -i hosts -l XXXXX.yaml --key-file ~/.ssh/id_rsa
